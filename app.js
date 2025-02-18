@@ -26,5 +26,5 @@ app.use('/api/visa', visaApplicationRoutes);
 // Server listening
 const port = process.env.PORT || 3033;
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  console.log(`Server running on "https://localhost:${port}"`);
 });
